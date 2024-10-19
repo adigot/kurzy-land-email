@@ -1,5 +1,6 @@
 Secrets
 .env
+sendgrid.env
 
 # Logs
 logs
@@ -25,3 +26,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# Local Netlify folder
+.netlify
