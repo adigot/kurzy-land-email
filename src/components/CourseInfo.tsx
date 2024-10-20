@@ -21,7 +21,7 @@ const CourseInfo = () => {
 
 const InfoCard = ({ icon, title, description }: { icon: React.ReactNode; title: string; description: string }) => (
   <div className="bg-gray-50 p-6 rounded-lg text-center">
-    <div className="text-indigo-600 mb-4 flex justify-center">{React.cloneElement(icon as React.ReactElement, { size: 40 })}</div>
+    <div className="text-[#5b8eeb] mb-4 flex justify-center">{React.cloneElement(icon as React.ReactElement, { size: 40 })}</div>
     <h3 className="text-xl font-semibold mb-2">{title}</h3>
     <p className="text-gray-600">{description}</p>
   </div>

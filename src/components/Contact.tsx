@@ -41,7 +41,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-16 bg-indigo-700 text-white">
+    <section id="contact" className="py-16 bg-[#3172e8] text-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-semibold text-center mb-8">Kontaktujte nás</h2>
         <div className="max-w-2xl mx-auto">
@@ -54,7 +54,7 @@ const Contact = () => {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                className="w-full px-4 py-2 rounded bg-indigo-600 text-white placeholder-indigo-300"
+                className="w-full px-4 py-2 rounded bg-[#4b86eb] text-white placeholder-indigo-300"
                 placeholder="Vaše jméno"
                 required
               />
@@ -67,7 +67,7 @@ const Contact = () => {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
-                className="w-full px-4 py-2 rounded bg-indigo-600 text-white placeholder-indigo-300"
+                className="w-full px-4 py-2 rounded bg-[#4b86eb] text-white placeholder-indigo-300"
                 placeholder="vas@email.cz"
                 required
               />
@@ -79,7 +79,7 @@ const Contact = () => {
                 name="role"
                 value={formData.role}
                 onChange={handleChange}
-                className="w-full px-4 py-2 rounded bg-indigo-600 text-white"
+                className="w-full px-4 py-2 rounded bg-[#4b86eb] text-white"
                 required
               >
                 <option value="">Vyberte...</option>
@@ -96,7 +96,7 @@ const Contact = () => {
                 value={formData.message}
                 onChange={handleChange}
                 rows={4}
-                className="w-full px-4 py-2 rounded bg-indigo-600 text-white placeholder-indigo-300"
+                className="w-full px-4 py-2 rounded bg-[#4b86eb] text-white placeholder-indigo-300"
                 placeholder="Vaše zpráva nebo dotaz"
                 required
               ></textarea>
