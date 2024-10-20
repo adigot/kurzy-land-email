@@ -83,9 +83,9 @@ const Contact = () => {
                 required
               >
                 <option value="">Vyberte...</option>
-                <option value="teacher">Pedagog</option>
-                <option value="parent">Rodič</option>
-                <option value="other">Jiné</option>
+                <option value="učitel">Pedagog</option>
+                <option value="rodič">Rodič</option>
+                <option value="jiné">Jiné</option>
               </select>
             </div>
             <div>
