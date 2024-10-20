@@ -101,7 +101,7 @@ const Contact = () => {
                 required
               ></textarea>
             </div>
-            <button type="submit" className="bg-white text-indigo-700 py-2 px-6 rounded-full font-semibold hover:bg-indigo-100 transition duration-300">Odeslat</button>
+            <button type="submit" className="bg-white text-[#3172e8] py-2 px-6 rounded-full font-semibold hover:bg-opacity-90 transition duration-300">Odeslat</button>
           </form>
           {submitStatus && (
             <div className="mt-4 text-center font-semibold">
