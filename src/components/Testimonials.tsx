@@ -7,19 +7,19 @@ const Testimonials = () => {
         <h2 className="text-3xl font-semibold text-center mb-12">Co říkají naši absolventi</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <TestimonialCard
-            name="Jana Nováková"
+            name="Slávka"
             role="Učitelka MŠ"
-            content="Tento kurz mi otevřel oči a zcela změnil můj přístup k výuce. Doporučuji všem pedagogům!"
+            content="Ráda bych vám touto cestou ještě jednou poděkovala, že jsem mohla Montessori kurz absolvovat právě u vás. Skripta, která jste pro nás v průběhu roku měly připravené, využívám pokaždé, když ve školce zařazuji novou aktivitu. Děkuji za umožnění fotografování aktivit ve vaší školce a nafocení postupu ukázky daných aktivit. Děkuji za váš lidský přístup, za nadšení, s kterým tuto práci prožíváte a předáváte dál."
           />
           <TestimonialCard
-            name="Petr Svoboda"
-            role="Ředitel ZŠ"
-            content="Skvělá investice do rozvoje našeho pedagogického sboru. Vidím pozitivní změny v celé škole."
+            name="Petra"
+            role="Maminka 2 dětí"
+            content="Věděla jsem, že dětem chci dát příležitost k objevování a zkoumání světa jejich vlastním tempem, neměla jsem k tomu ale dostatečné nástroje a ani si nebyla jistá, jak k tomu v praxi přistoupit. Na kurzu jsem získala nejen obrovskou spoustu inspirace na to, co jim nabídnout, ale hlavně také jak, aby je to opravdu zaujalo, přirozeně a hravě. Navíc mi kurz poskytl prostor pro sebereflexi a ujasnění si vlastních priorit ve výchově. Odnesla jsem si z něj klidnější a více respektující přístup, který dětem umožňuje přirozený růst. Doporučuji nejen všem maminkám, které chtějí své děti podpořit v jejich přirozeném vývoji."
           />
           <TestimonialCard
-            name="Martina Dvořáková"
-            role="Rodič"
-            content="Jako rodič jsem získala cenné poznatky, jak podporovat rozvoj svého dítěte doma pomocí Montessori principů."
+            name="Renata"
+            role="Učitelka v jesličkách"
+            content="Velké poděkování za úžasný kurz, který byl již 10. Veru, Jani, Markétko - jste inspirativní ženy, které do tohoto kurzu daly víc než je možné. Vaše energie, ochota, pokora a láska, se kterou tuto práci děláte, je nevyčerpatelná. Přeji vám mnoho dalších úspěchů a ještě jednou děkuji. Jsem ráda, že jsem byla součástí tohoto kurzu."
           />
         </div>
       </div>

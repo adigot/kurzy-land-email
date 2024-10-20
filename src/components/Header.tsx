@@ -21,7 +21,7 @@ const Header = () => {
       <div className="container mx-auto px-4 h-full flex justify-between items-center">
         <div className="flex items-center">
           <GraduationCap className="h-8 w-8 text-indigo-600 mr-2" />
-          <span className="text-xl font-semibold text-gray-800">Montessori Kurz</span>
+          <span className="text-xl font-semibold text-gray-800">MyMo svět - kurzy</span>
         </div>
         <nav>
           <ul className="flex space-x-6">

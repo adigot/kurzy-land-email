@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-4 md:mb-0">
             <GraduationCap className="h-8 w-8 text-indigo-400 mr-2" />
-            <span className="text-xl font-semibold">Montessori Kurz</span>
+            <span className="text-xl font-semibold">MyMo svět - kurzy</span>
           </div>
           <nav>
             <ul className="flex space-x-6">
@@ -19,7 +19,7 @@ const Footer = () => {
           </nav>
         </div>
         <div className="mt-8 text-center text-gray-400 text-sm">
-          &copy; {new Date().getFullYear()} Montessori Kurz. Všechna práva vyhrazena.
+          &copy; {new Date().getFullYear()} MyMo svět s.r.o.. Všechna práva vyhrazena.
         </div>
       </div>
     </footer>
