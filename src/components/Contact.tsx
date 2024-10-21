@@ -43,7 +43,7 @@ const Contact = () => {
   return (
     <section id="contact" className="py-16 bg-[#3172e8] text-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-semibold text-center mb-8">Kontaktujte nás</h2>
+        <h2 className="text-3xl font-semibold text-center mb-8">Přihlaste se na kurz</h2>
         <div className="max-w-2xl mx-auto">
           <form className="space-y-4" onSubmit={handleSubmit}>
             <div>
@@ -101,7 +101,7 @@ const Contact = () => {
                 required
               ></textarea>
             </div>
-            <button type="submit" className="bg-white text-[#3172e8] py-2 px-6 rounded-full font-semibold hover:bg-opacity-90 transition duration-300">Odeslat</button>
+            <button type="submit" className="bg-white text-[#3172e8] py-2 px-6 rounded-full font-semibold hover:bg-opacity-90 transition duration-300">Přihlásit</button>
           </form>
           {submitStatus && (
             <div className="mt-4 text-center font-semibold">
