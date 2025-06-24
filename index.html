@@ -1,14 +1,74 @@
 <!doctype html>
 <html lang="cs">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Montessori kurz pro pedagogy a rodiče</title>
-    <meta name="description" content="Odemkněte potenciál dětí díky Montessori přístupu – naučte se, jak vést srdcem i rozumem." />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>MyMo svět</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/core.css">
+</head>
+<body class="homepage">
+  <!--  page header -->
+  <header>
+    <div class="container-max">
+      <a href="index.html" class="logotype">
+        <img alt="MyMo svět" src="images/logotype.svg">
+      </a>
+      <nav>
+        <input type="checkbox" id="menu-toggle" hidden>
+        <label for="menu-toggle" class="menu-icon">
+          <i class="icon-r ic-bars fs-28"></i>
+        </label>
+        <ul>
+          <li>
+              <a href="kdo-jsme.html">Kdo jsme</a>
+              <ul>
+                <li><a href="kontakty.html">Kontakty</a></li>
+                <li><a href="#">Ochrana osobních údajů</a></li>
+                <li><a href="#">Jak reklamovat</a></li>
+                <li><a href="#">Obchodní podmínky</a></li>
+              </ul>
+          </li>
+          <li><a href="kontakty.html">Kontakty</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- page content -->
+  <main>
+    <section>
+      <div class="container-max">
+        <div class="content">
+          <article>
+            <div class="column">
+              <h1>Můj Montessori svět</h1>
+              <p>Pomáháme vám zorientovat se na vaší Montessori cestě a najít si v ní to své.</p>
+              <p><strong>S respektem k dětem, s odvahou k sobě, s vírou ve smysl.</strong></p>
+
+              <div class="controls">
+                <button><span>Přihlaste se na náš kurz</span></button>
+                <button><span>Objevte naše Montessori kity</span></button>
+              </div>
+            </div>
+            <div class="column">
+              <p>
+                MyMo svět spojuje zkušenosti a nadšení. <strong>Veronika, Montessori pedagog</strong> v mateřské škole a <strong>lektorka</strong> Montessori kurzů a <strong>Adela</strong>, maminka čtyř dětí a Montessori nadšenec. Společně vytváříme prostor pro vzdělávání a vzájemnou inspiraci.
+              </p>
+              <p>
+                Pořádáme Montessori vzdělávací kurzy pro pedagogy i širokou veřejnost a nabízíme speciální Montessori kity, díky kterým si můžete snadno vyrobit Montessori pomůcky v domácím prostředí.
+              </p>
+            </div>
+          </article>
+        </div>
+        <div class="g-element">
+          <img src="images/areas/smyslova-vychova.png"/>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- page footer -->
+
+</body>
 </html>

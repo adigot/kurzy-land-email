@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MyMo svět</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/core.css">
+</head>
+<body class="subpage">
+<!--  page header -->
+<header>
+  <div class="container-max">
+    <a href="index.html" class="logotype">
+      <img alt="MyMo svět" src="images/logotype.svg">
+    </a>
+    <nav>
+      <input type="checkbox" id="menu-toggle" hidden>
+      <label for="menu-toggle" class="menu-icon">
+        <i class="icon-r ic-bars fs-28"></i>
+      </label>
+      <ul>
+        <li class="nav-item">
+          <a href="kdo-jsme.html"><span>Kdo jsme</span></a>
+          <ul>
+            <li><a class="active" href="kontakty.html">Kontakty</a></li>
+            <li><a href="#">Ochrana osobních údajů</a></li>
+            <li><a href="#">Jak reklamovat</a></li>
+            <li><a href="#">Obchodní podmínky</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="active" href="kontakty.html"><span>Kontakty</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- page content -->
+<main>
+  <section>
+    <div class="container-max">
+      <div class="breadcrumbs"><a href="index.html">Home</a> / <a href="kdo-jsme.html">Kdo jsme</a> / <span>Kontakty</span></div>
+      <div class="content">
+        <aside>
+          <h2>Kdo jsme</h2>
+          <nav>
+            <ul>
+              <li><a class="active" href="kontakty.html">Kontakty</a></li>
+              <li><a href="#">Ochrana osobních údajů</a></li>
+              <li><a href="#">Jak reklamovat</a></li>
+              <li><a href="#">Obchodní podmínky</a></li>
+            </ul>
+          </nav>
+        </aside>
+        <article>
+          <h1>Kontakty</h1>
+          <p>
+            <strong>MyMo svět s.r.o.</strong><br />
+            Šípková 1868/8<br />
+            142 00 Praha 4 - Krč
+          </p>
+
+          <p>
+            <strong>Veronika Stárková</strong><br />
+            +420 777 888 999<br />
+            veronika@mymosvet.cz
+          </p>
+          <p>
+            <strong>Adela Gottwaldová</strong><br />
+            +420 732 642 582<br />
+            adela@mymosvet.cz
+          </p>
+        </article>
+      </div>
+      <div class="form contact">
+        <h2>Napište nám</h2>
+        <form action="#">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="required">Jméno</label>
+              <input type="text" name="firstName"/>
+            </div>
+            <div class="form-group">
+              <label class="required">Příjmení</label>
+              <input type="text" name="surname"/>
+            </div>
+            <div class="form-group">
+              <label class="required">Jsem</label>
+              <select>
+                <option>Pedagog</option>
+                <option>Rodič</option>
+                <option>Jiné</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="required">E-mail</label>
+              <input type="text" name="email"/>
+            </div>
+            <div class="form-group">
+              <label class="required">Telefon</label>
+              <input type="text" name="phone"/>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="required">Vaše zpráva</label>
+              <textarea></textarea>
+            </div>
+          </div>
+          <div class="controls">
+            <button><span>Odeslat</span></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- page footer -->
+
+</body>
+</html>
